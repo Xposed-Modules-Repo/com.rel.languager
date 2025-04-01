@@ -57,32 +57,10 @@ You can also install Languager directly from the LSPosed repository:
 5. Reboot or restart the target apps for changes to take effect
 
 ## Supported Languages
-- English
-- French (Français)
-- German (Deutsch)
-- Spanish (Español)
-- Italian (Italiano)
-- Portuguese (Português)
-- Russian (Русский)
-- Chinese (中文)
-- Japanese (日本語)
-- Korean (한국어)
-- Arabic (العربية)
-- Hebrew (עברית)
-- Hindi (हिन्दी)
-- Bengali (বাংলা)
-- Punjabi (ਪੰਜਾਬੀ)
-- Tamil (தமிழ்)
-- Telugu (తెలుగు)
-- Malayalam (മലയാളം)
-- Thai (ไทย)
-- Vietnamese (Tiếng Việt)
-- Indonesian (Bahasa Indonesia)
-- Malay (Bahasa Melayu)
-- Turkish (Türkçe)
-- Dutch (Nederlands)
-- Polish (Polski)
-- Swedish (Svenska)
+All language from your system are supported by `Languager`! Just select them. <br />
+But NOTE!!! Languager only spoofs the system-language, and won't translate app's strings for you. <br />
+In addition, some apps are installed via split-apk and do not have the language you want (they only support the system-language). <br />
+To bypass such apps and use your prefered language, temporarly switch your system-language, reinstall the app then select language in `Languager`.
 
 ## Implementation Details
 - **Preference Handling**: Uses `MODE_WORLD_READABLE` with LSPosed's `xposedsharedprefs` flag for secure preference sharing
